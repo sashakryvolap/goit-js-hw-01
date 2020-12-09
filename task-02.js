@@ -4,10 +4,8 @@ const ordered = 50;
 let result;
 
 if (ordered <= total) {
-    result = 'Заказ оформлен, с вами свяжется менеджер.';
-}
-else {
-        result = 'На складе недостаточно товаров!';
-
+  result = 'Заказ оформлен, с вами свяжется менеджер.';
+} else {
+  result = 'На складе недостаточно товаров!';
 }
 console.log(result);
